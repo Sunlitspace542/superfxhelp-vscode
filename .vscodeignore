@@ -1,2 +1,7 @@
 .gitignore
 .yarnrc
+.vsix
+.cmd
+**/*.CB
+**/*.HLP
+./origsrc/**

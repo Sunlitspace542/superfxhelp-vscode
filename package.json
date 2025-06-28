@@ -2,6 +2,7 @@
   "name": "superfx-help",
   "displayName": "Super FX Assembly Help",
   "description": "Provides tooltips for Super FX Assembly instructions.",
+  "icon": "img/icon.png",
   "version": "1.0.0",
   "publisher": "SunlitSpace542",
   "repository": "https://github.com/Sunlitspace542/superfxhelp-vscode",
