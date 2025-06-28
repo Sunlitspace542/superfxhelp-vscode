@@ -1,3 +1,14 @@
+/*
+extension.ts
+Main extension logic.
+
+Copyright © 2025 Sunlit
+Released under the MIT license.
+
+Please credit me if you use this code in your software or make any derivatives of this code.
+It's not like you have to pay me or anything. Crediting me is free.
+*/
+
 import * as vscode from 'vscode';
 import * as path from 'path';
 import * as fs from 'fs';
