@@ -12,10 +12,7 @@
   "categories": [
     "Programming Languages"
   ],
-  "activationEvents": [
-	"onLanguage:asm",
-	"onLanguage:assembly"
-],
+  "activationEvents": ["onLanguage:asm"],
   "main": "./out/extension.js",
   "contributes": {
     "languages": [

@@ -6,7 +6,8 @@ When a valid instruction is hovered over, it shows a tooltip box with info about
 
 <img src="./img/example.png" title="" alt="example.png" width="298">
 
-This extension is currently only compatible with Argonaut's assemblers (SASM, ARGSFX, file extension *.MC) and Randal Linden's xAsm assembler (file extension *.a).  
+This extension is currently only compatible with Argonaut's SASM and ARGSFX assemblers (file extension *.MC) and Randal Linden's xAsm assembler (file extension *.a).  
+Set the language association for *.MC and *.a to assembly (asm).  
 
 ## Compiling
 
