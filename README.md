@@ -13,6 +13,7 @@ The associated language must be plain Assembly for it to function at the moment.
 ## How to Compile
 
 Node.js, Git, and probably Visual Studio Code itself must be installed for this to compile. I don't know why Git is required, but it is.  
-Open a PowerShell terminal window in the root of the repo and run ``npm install`` to setup all the dependencies.  
+Open a PowerShell terminal window in the root of the repo and run ``npm install`` and ``npm install -g @vscode/vsce`` to setup all the dependencies.  
 Run ``npm run compile`` to compile.  
-Alternatively, use ``getmodules.cmd`` to install dependecies, and use ``build.cmd`` to compile.
+Run ``vsce package`` to build a VSIX file that can be installed.  
+Alternatively, use ``getmodules.cmd`` to install dependecies, use ``build.cmd`` to compile, and use package.cmd to make the VSIX file.
