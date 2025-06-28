@@ -13,4 +13,5 @@ The associated language must be plain Assembly for it to function at the moment.
 ## How to Compile
 
 Node.js, Git, and probably Visual Studio Code itself must be installed for this to compile. I don't know why Git is required, but it is.  
-Open a PowerShell terminal window in the root of the repo and run ``npm install`` (If I recall correctly) to setup all the dependencies.
+Open a PowerShell terminal window in the root of the repo and run ``npm install`` (If I recall correctly) to setup all the dependencies.  run ``npm run compile`` to compile.  
+Alternatively, use ``getmodules.cmd`` to install dependecies, and use ``build.cmd`` to compile.
