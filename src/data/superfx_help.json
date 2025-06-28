@@ -60,7 +60,7 @@
     "opcodes": "COLOR\t$4e\tCOLOR\t1\n(CMODE,PLOT,WITH,FROM)"
   },
   "COLOUR SET PLOT COLOUR.": {
-    "description": "(SReg) -> Color register.\nAssembler syntax: COLOUR\n\nSet colour used by the plot instruction\nto low byte of SReg.\nAll prefix data is cleared.",
+    "description": "(SReg) -> Colour register.\nAssembler syntax: COLOUR\n\nSet colour used by the plot instruction\nto low byte of SReg.\nAll prefix data is cleared.",
     "flags": "000------",
     "opcodes": "COLOUR\t$4e\tCOLOUR\t1\n(CMODE,PLOT,WITH,FROM)"
   },

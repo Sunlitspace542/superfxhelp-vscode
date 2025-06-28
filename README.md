@@ -8,12 +8,16 @@ When a valid instruction is hovered over, it shows a tooltip box with info about
 
 This extension is currently only compatible with Argonaut's assemblers (SASM, ARGSFX, file extension *.MC) and Randal Linden's xAsm assembler (file extension *.a).  
 
-The associated language must be plain Assembly for it to function at the moment.
-
-## How to Compile
+## Compiling
 
 Node.js, Git, and probably Visual Studio Code itself must be installed for this to compile. I don't know why Git is required, but it is.  
 Open a PowerShell terminal window in the root of the repo and run ``npm install`` and ``npm install -g @vscode/vsce`` to setup all the dependencies.  
 Run ``npm run compile`` to compile.  
 Run ``vsce package`` to build a VSIX file that can be installed.  
-Alternatively, use ``getmodules.cmd`` to install dependecies, use ``build.cmd`` to compile, and use package.cmd to make the VSIX file.
+Alternatively, use ``getmodules.cmd`` to install dependecies, use ``build.cmd`` to compile, and use ``package.cmd`` to make the VSIX file.
+
+## TODO
+
+- [ ] See if the "see also" instructions bit at the end can be made into hyperlinks to those instructions' explanations, or if a sort of interactive help directory thing can be added
+- [ ] Add RAM and ROM cycle counts for every instruction (will take a long time)
+- [ ] Add explanations for branch instructions (left out of the original)

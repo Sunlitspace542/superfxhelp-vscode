@@ -46,7 +46,7 @@ function renderFlagsTable(flagsStr: string): string {
 function renderOpcodeTable(opcodeStr: string): string {
   const lines = opcodeStr.trim().split('\n');
 
-  // Remove final line if it's a parenthetical note
+  // Remove final line if it's a parenthetical note (See also)
   const lastLine = lines[lines.length - 1].trim();
   const seeAlso = lastLine.startsWith('(') && lastLine.endsWith(')') ? lines.pop() : null;
 
@@ -77,7 +77,7 @@ function renderOpcodeTable(opcodeStr: string): string {
   table += bodyRows.join('\n') + '\n';
   table += borderBottom + '\n';
   if (seeAlso) {
-    table += seeAlso + '\n';
+    table += `See also: ` + seeAlso + '\n';
   }
   table += '```';
 

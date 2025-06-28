@@ -3,7 +3,7 @@
   "displayName": "Super FX Assembly Help",
   "description": "Provides tooltips for Super FX Assembly instructions.",
   "icon": "img/icon.png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "SunlitSpace542",
   "repository": "https://github.com/Sunlitspace542/superfxhelp-vscode",
   "engines": {
@@ -12,16 +12,18 @@
   "categories": [
     "Programming Languages"
   ],
-  "activationEvents": ["onLanguage:asm"],
+  "activationEvents": [
+	"onLanguage:asm",
+	"onLanguage:assembly"
+],
   "main": "./out/extension.js",
   "contributes": {
     "languages": [
       {
 				"id": "asm",
 				"aliases": [
-					"Assembly",
-					"asm",
-					"65816 Assembly"
+					"assembly",
+					"asm"
 				],
 				"extensions": [
 					".MC",
