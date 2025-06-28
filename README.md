@@ -21,3 +21,4 @@ Alternatively, use ``getmodules.cmd`` to install dependecies, use ``build.cmd`` 
 - [ ] See if the "see also" instructions bit at the end can be made into hyperlinks to those instructions' explanations, or if a sort of interactive help directory thing can be added
 - [ ] Add RAM and ROM cycle counts for every instruction (will take a long time)
 - [ ] Add explanations for branch instructions (left out of the original)
+- [ ] Detect Super FX code in xAsm source files properly (look for ``	cpu	sfx`` at beginning of file)
