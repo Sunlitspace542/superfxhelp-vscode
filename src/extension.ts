@@ -89,10 +89,12 @@ export function activate(context: vscode.ExtensionContext) {
   const helpFilePath = path.join(context.extensionPath, 'src', 'data', 'superfx_help.json');
   const rawData = fs.readFileSync(helpFilePath, 'utf8');
   helpData = JSON.parse(rawData);
+  console.log("Is this thing on?");
 
   // Register hover provider
   const provider = vscode.languages.registerHoverProvider({ scheme: 'file', language: 'asm' }, {
 provideHover(document, position) {
+  console.log("Hovering...");
   const range = document.getWordRangeAtPosition(position);
   let word = document.getText(range).toUpperCase();
 
