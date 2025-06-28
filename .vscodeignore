@@ -2,6 +2,7 @@
 .yarnrc
 .vsix
 **/*.cmd
+**/*.zip
 **/*.CB
 **/*.HLP
 ./origsrc/**
